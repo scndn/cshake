@@ -6,7 +6,7 @@
             Query CyberShake SQL Database
 --------------------------------------------------------
 General purpose script to query the CybeShake SQL
-    server for simulation metadata and save outputs.
+    server for simulation metadata and save outputs
 """
 
 # Built-in/Generic Imports
