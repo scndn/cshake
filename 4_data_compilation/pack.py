@@ -114,7 +114,7 @@ def main():
             wgs84 = nv.FrameE(name='WGS84')
             pointA = wgs84.GeoPoint(latitude=lat1, longitude=lon1, z=z1, degrees=True)
     
-            # compute things
+            # compute ztor and Rrup
             for i in range(len(source_pd)):
                 lat2 = source_pd.loc[i,"Lat"]
                 lon2 = source_pd.loc[i,"Lon"]
@@ -128,7 +128,7 @@ def main():
                     Rrup = Rrup_temp
                     
             
-            # some average thing
+            # weighted average rake
             average = 0
             weight = (1/(len(source_pd)))
             for i in range(len(source_pd)):
