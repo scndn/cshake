@@ -2,7 +2,7 @@
 
 ***UPDATES TO THE USC SERVERS: CODE CURRENTLY NOT WORKING AS INTENDED***
 
-The selection and acquisition of CyberShake simulations and metadata can be separated into four parts: (1) event selection, (2) metadata acquisition, (3) waveform acquisition, and (4) data compilation. The procedure outline below can be followed using the tools made available at github.com/scndn/cybershake and necessitates a basic knowledge of programming and access to the intensity@usc.edu server.
+The selection and acquisition of CyberShake simulations and metadata can be separated into four parts: (1) event selection, (2) metadata acquisition, (3) waveform acquisition, and (4) data compilation. The procedure outlined below can be followed using the tools made available at github.com/scndn/cybershake and necessitates a basic knowledge of programming and access to the intensity@usc.edu server.
 
 In (1) event selection, we query the CyberShake SQL database for all simulated ground motions belonging to Study 15.4 and return a subset of unique simulation identification integers (IDs).
 
